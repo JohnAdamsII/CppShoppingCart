@@ -1,0 +1,30 @@
+Design Description:
+
+The designed shopping cart application is a simple C++ program that demonstrates the use of inheritance and polymorphism. It consists of an abstract base class, Item, and three derived classes representing different types of items: MusicCD, Book, and Magazine. These classes model various types of products that can be added to the shopping cart. The ShoppingCart class manages a collection of items and provides methods to add items, display contents, and summarize the cart.
+
+Assumptions:
+
+The application is assumed to run on a system with a modern C++ compiler.
+It is assumed that the shopping cart will only contain the three types of items mentioned in the problem statement (Music CDs, Books, and Magazines).
+Strengths:
+
+The code adheres to modern C++ best practices, making it more readable and maintainable.
+The use of inheritance and polymorphism allows for easy extension of the item types and their behavior.
+The use of std::unique_ptr for item storage ensures proper memory management.
+The implementation is modular, allowing for simple updates and modifications.
+Weaknesses:
+
+The current design does not include error handling for exceptional situations, such as file I/O errors.
+The application only supports a simple text output format for displaying cart contents.
+Possible improvements:
+
+Implement error handling to address potential issues with file I/O, memory allocation, and other exceptional situations.
+Extend the application to support additional item types and properties, such as item quantity, discounts, or promotions.
+Add support for more advanced output formats, such as HTML, JSON, or XML, to improve the user experience.
+Implement a more comprehensive user interface to facilitate interaction with the application.
+Incorporate unit testing to ensure the correctness and reliability of the code.
+By following modern C++ best practices and providing a clean, modular design, this implementation demonstrates my ability to contribute effectively as a member of a small development team. The code is designed to be easily understood and maintained by others, and the suggested improvements show a forward-thinking approach to application development.
+
+Furthermore, the code should be split into separate cpp and hpp files for better organization; implementation and definitions should be separate.
+
+Additionally, templates and the use of generics might address another issue, which is redundancy among the item types.  
